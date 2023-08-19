@@ -14,8 +14,9 @@
 🏭 Saiba mais sobre o Projeto de Pesquisa sobre Mercados Alimentares: 
 
 * Site do Programa de Pós Graduação
-* Site do Projeto
+* [Site do Projeto - Mercados Alimentares](https://portal.utfpr.edu.br/noticias/pato-branco/mercados-alimentares-digitais-no-brasil)
 * Lista de Colaboradores
-* CNPQ
+* [CNPQ](https://www.gov.br/cnpq/pt-br)
+  
 
 ## :blue_book: Documentos
