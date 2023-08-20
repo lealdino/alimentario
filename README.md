@@ -13,9 +13,8 @@
 
 🏭 Saiba mais sobre o Projeto de Pesquisa sobre Mercados Alimentares: 
 
-* Site do Programa de Pós Graduação
+* [Site do Programa de Pós Graduação - GEPPADEM](https://pb.utfpr.edu.br/geppadem/)
 * [Site do Projeto - Mercados Alimentares](https://portal.utfpr.edu.br/noticias/pato-branco/mercados-alimentares-digitais-no-brasil)
-* Lista de Colaboradores
 * [CNPQ](https://www.gov.br/cnpq/pt-br)
   
 
