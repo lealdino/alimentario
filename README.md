@@ -1,3 +1,4 @@
+![](./images/logo_alimentario_colorido_banner.png)
 ## Alimentário
 
  **Sistema de Desenvolvimento e Análise de Questionários do GPPADEM (Alimentário)** 
