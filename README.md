@@ -1,6 +1,6 @@
 ## Alimentário
 
- **Sistema de desenvolvimento e análise de questionários do GPPADEM (Alimentário)** 
+ **Sistema de Desenvolvimento e Análise de Questionários do GPPADEM (Alimentário)** 
 
 ## Boas vindas ao Alimentário 👋
 
