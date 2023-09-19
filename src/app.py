@@ -1,17 +1,18 @@
-from limesurveyrc2api.limesurvey import LimeSurvey
+import requests
 
 url = "https://pb.utfpr.edu.br/geppadem/alimentario/index.php/admin/remotecontrol"
-username = "ppgdr-pb@utfpr.edu.br"
-password = "5MnVpxad273a"
 
-# Open a session.
-api = LimeSurvey(url=url, username=username)
-api.open(password=password)
+payload = {
+    "method": "get_session_key",
+    "params": ["ppgdr-pb@utfpr.edu.br", "5MnVpxad273a"],
+    "id": 1
+}
+headers = {
+    "cookie": "LS-BFZSAEVMKCPRBIUK=ehvcotsuvgjkoff0n91nn2m3um",
+    "Content-Type": "application/json",
+    "User-Agent": "Apache-HttpClient/4.2.2 (java 1.5)"
+}
 
-# Get a list of surveys the admin can see, and print their IDs.
-result = api.survey.list_surveys()
-for survey in result:
-    print(survey.get("sid"))
+response = requests.request("POST", url, json=payload, headers=headers, verify=False)
 
-# Close the session.
-api.close()
+print(response.text)
