@@ -20,3 +20,5 @@
   
 
 ## :blue_book: Documentos
+
+* [API de comunicação com o LimeSurvey](https://api.limesurvey.org/classes/remotecontrol_handle.html)
