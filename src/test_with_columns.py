@@ -8,10 +8,16 @@ import matplotlib.pyplot as plt
 
 # Define the main function for the Streamlit app
 def main():
+
+    # Create four columns for the images
+
+
+    st.image("images/app/all_logos.png", use_column_width=True)
+    
+
     st.markdown("<h1 style='text-align: center; color: white;'>Alimentário - Análises</h1>", unsafe_allow_html=True)
     
     st.markdown("<h3 style='text-align: center; color: white;'>Clique no questionário que deseja ver os resultados!</h3>", unsafe_allow_html=True)
-
 
     # Create three columns for the images and buttons
     col1, col2, col3 = st.columns(3)
@@ -62,6 +68,15 @@ def analysis_1():
     ).interactive()
     st.altair_chart(scatter, use_container_width=True)
 
+    # Comment section
+    st.subheader("Deixe um comentário sobre a análise de Agricultores e Familiares")
+    comment = st.text_area("Your comment here...")
+    if st.button("Submit"):
+        save_comment("Agricultores e Familiares", comment)
+        st.success("Comment saved!")
+
+    display_comments("Agricultores e Familiares")
+
 # Define the function for Analysis 2
 def analysis_2():
     st.title("Consumidores")
@@ -93,6 +108,15 @@ def analysis_2():
         tooltip=['Category', 'Sales']
     ).interactive()
     st.altair_chart(scatter, use_container_width=True)
+
+    # Comment section
+    st.subheader("Deixe um comentário sobre a análise de Consumidores")
+    comment = st.text_area("Your comment here...")
+    if st.button("Submit"):
+        save_comment("Consumidores", comment)
+        st.success("Comment saved!")
+
+    display_comments("Consumidores")
 
 # Define the function for Analysis 3
 def analysis_3():
@@ -128,6 +152,38 @@ def analysis_3():
         tooltip=['Product', 'Market Share']
     ).interactive()
     st.altair_chart(scatter, use_container_width=True)
+
+    # Comment section
+    st.subheader("Deixe um comentário sobre a análise de Sites e Plataformas")
+    comment = st.text_area("Your comment here...")
+    if st.button("Submit"):
+        save_comment("Sites e Plataformas", comment)
+        st.success("Comment saved!")
+
+    display_comments("Sites e Plataformas")
+
+# Define a function to save comments to a file
+def save_comment(analysis_name, comment):
+    with open("comments.txt", "a") as file:
+        file.write(f"{analysis_name} - {comment}\n")
+
+# Define a function to read and display comments for a specific analysis
+def display_comments(analysis_name):
+    comments = []
+    try:
+        with open("comments.txt", "r") as file:
+            lines = file.readlines()
+            for line in lines:
+                if line.startswith(analysis_name):
+                    comments.append(line.split(" - ")[1])
+    except FileNotFoundError:
+        # If the file doesn't exist yet, just return an empty list
+        pass
+
+    if comments:
+        st.subheader("Comments")
+        for comment in comments:
+            st.write(comment)
 
 # Run the main function
 if __name__ == "__main__":
