@@ -5,6 +5,7 @@ import numpy as np
 import altair as alt
 import plotly.express as px
 import matplotlib.pyplot as plt
+import alimentario
 
 # Define the main function for the Streamlit app
 def main():
@@ -34,6 +35,7 @@ def main():
     col3.image("images/app/teste.png", use_column_width=True)
     if col3.button("Sites e Plataformas"):
         analysis_3()
+        alimentario.printData()
 
 # Define the function for Analysis 1
 def analysis_1():
