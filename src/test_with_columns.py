@@ -13,10 +13,10 @@ def main():
     # Create four columns for the images
 
 
-    st.image("images/app/all_logos.png", use_column_width=True)
+    st.image("images/app/all_logos.jpg", use_column_width=True)
     
 
-    st.markdown("<h1 style='text-align: center; color: white;'>Alimentário - Análises</h1>", unsafe_allow_html=True)
+    # st.markdown("<h1 style='text-align: center; color: white;'>Alimentário - Análises</h1>", unsafe_allow_html=True)
     
     st.markdown("<h3 style='text-align: center; color: white;'>Clique no questionário que deseja ver os resultados!</h3>", unsafe_allow_html=True)
 
@@ -44,9 +44,15 @@ def analysis_1():
     dates = pd.date_range("20220101", periods=12)
     sales = np.random.randn(12).cumsum()
     df = pd.DataFrame({"Date": dates, "Sales": sales})
+    df_example = alimentario.get_limesurvey_data("https://pb.utfpr.edu.br/geppadem/alimentario/index.php/admin/remotecontrol",
+                                                 "ppgdr-pb@utfpr.edu.br",
+                                                  "5MnVpxad273a",
+                                                    "572115")
+    
+    print(df_example.shape)
 
     #Descriptive statistics table
-    st.subheader("Estatística Descritiva")
+    st.subheader("Estatística Descritiva") 
     st.table(df.describe())
 
     # Line chart
