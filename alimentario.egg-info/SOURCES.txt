@@ -5,4 +5,9 @@ alimentario.egg-info/PKG-INFO
 alimentario.egg-info/SOURCES.txt
 alimentario.egg-info/dependency_links.txt
 alimentario.egg-info/top_level.txt
-tests/test_alimentario.py
+app/__init__.py
+app/alimentario/__init__.py
+app/alimentario/src/__init__.py
+app/alimentario/src/alimentario.py
+app/alimentario/test/__init__.py
+app/alimentario/test/test_alimentario.py

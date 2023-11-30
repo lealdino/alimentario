@@ -1,7 +1,8 @@
 import unittest
 import json
 from unittest.mock import patch, MagicMock
-import alimentario  
+from ..src import alimentario
+
 
 class TestLimeSurveyAPI(unittest.TestCase):
 
