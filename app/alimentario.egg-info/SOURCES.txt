@@ -5,6 +5,7 @@ app/alimentario/__init__.py
 app/alimentario.egg-info/PKG-INFO
 app/alimentario.egg-info/SOURCES.txt
 app/alimentario.egg-info/dependency_links.txt
+app/alimentario.egg-info/requires.txt
 app/alimentario.egg-info/top_level.txt
 app/alimentario/src/__init__.py
 app/alimentario/src/alimentario.py
