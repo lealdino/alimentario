@@ -1,4 +1,4 @@
-![Alimentario](./images/logo_alimentario_colorido_banner.png)
+![Alimentario](./images/Limesurvey_logo.png)
 ## Alimentário
 
  **Sistema de Desenvolvimento e Análise de Questionários do GPPADEM (Alimentário)** 
