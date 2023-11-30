@@ -19,8 +19,7 @@ pip install git+https://github.com/lealdino/alimentario.git
 
 🙋‍♀️ Comece aprendendo sobre o Software: 
 
-* Manual do Usuário
-* Como o Softaware Funciona? 
+* [Manual do Usuário](https://docs.google.com/document/d/1u5bTpRpjIuhFR61CG4w-yiTPRrdoUbSywgve420oFzs/edit?usp=sharing)
 * [LimeSurvey](https://www.limesurvey.org/)
 * [Offline Survey](https://www.offlinesurveys.com/)
 
@@ -36,5 +35,3 @@ pip install git+https://github.com/lealdino/alimentario.git
 ## :blue_book: Documentos
 
 * [API de comunicação com o LimeSurvey](https://api.limesurvey.org/classes/remotecontrol_handle.html)
-
-![Instituições](./images/app/all_logos.png)
