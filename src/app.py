@@ -39,10 +39,7 @@ def main():
 def analysis_1():
     st.title("Agricultores e Familiares")
   
-    df = alimentario.get_limesurvey_data("https://pb.utfpr.edu.br/geppadem/alimentario/index.php/admin/remotecontrol",
-                                                 "ppgdr-pb@utfpr.edu.br",
-                                                  "5MnVpxad273a",
-                                                    "572115")
+   
     
     
     #Descriptive statistics table
