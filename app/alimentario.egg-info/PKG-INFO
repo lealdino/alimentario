@@ -1,27 +1,41 @@
 Metadata-Version: 2.1
 Name: alimentario
 Version: 0.1.0
-Summary: Python package to import survey data from LimeSurvey
-Home-page: UNKNOWN
+Summary: A small example package
 Author: ['Pedro Lealdino Filho', 'Marcio Gazolla', 'Cristiane Tavares Feijo']
-Author-email: ['admin@dataverso.com.br']
-License: UNKNOWN
-Keywords: python,first package
-Platform: UNKNOWN
-Classifier: Development Status :: 3 - Alpha
-Classifier: Intended Audience :: Researchers
-Classifier: License :: OSI Approved :: MIT License
+Author-email: Pedro Lealdino Filho <admin@dataverso.com.br>
 Classifier: Programming Language :: Python :: 3
-Classifier: Programming Language :: Python :: 3.6
-Classifier: Programming Language :: Python :: 3.7
-Classifier: Programming Language :: Python :: 3.8
-Classifier: Programming Language :: Python :: 3.9
-Classifier: Programming Language :: Python :: 3.10
-Classifier: Programming Language :: Python :: 3.11
-Classifier: Programming Language :: Python :: 3.12
-Classifier: Programming Language :: Python :: 3 :: Only
 Classifier: License :: OSI Approved :: MIT License
 Requires-Python: >=3
+Description-Content-Type: text/markdown
 
-This package allows you to download data from LimeSurvey surveys in form of Pandas DataFrame
+![Alimentario](./images/Limesurvey_logo.png)
+## Alimentário
 
+ **Sistema de Desenvolvimento e Análise de Questionários do GPPADEM (Alimentário)** 
+
+## Instalação
+
+## Boas vindas ao Alimentário 👋
+
+🙋‍♀️ Comece aprendendo sobre o Software: 
+
+* Manual do Usuário
+* Como o Softaware Funciona? 
+* [LimeSurvey](https://www.limesurvey.org/)
+* [Offline Survey](https://www.offlinesurveys.com/)
+
+🏭 Saiba mais sobre o Projeto de Pesquisa sobre Mercados Alimentares: 
+
+* [Site do Programa de Pós Graduação - GEPPADEM](https://pb.utfpr.edu.br/geppadem/)
+* [Site do Projeto - Mercados Alimentares](https://portal.utfpr.edu.br/noticias/pato-branco/mercados-alimentares-digitais-no-brasil)
+* [CNPQ](https://www.gov.br/cnpq/pt-br)
+* [UTFPR](https://utfpr.gov.br)
+* [PPGDR]()
+  
+
+## :blue_book: Documentos
+
+* [API de comunicação com o LimeSurvey](https://api.limesurvey.org/classes/remotecontrol_handle.html)
+
+![Instituições](./images/app/all_logos.png)
