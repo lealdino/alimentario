@@ -1,8 +1,8 @@
 README.md
+pyproject.toml
 setup.py
 alimentario.egg-info/PKG-INFO
 alimentario.egg-info/SOURCES.txt
 alimentario.egg-info/dependency_links.txt
-alimentario.egg-info/requires.txt
 alimentario.egg-info/top_level.txt
 tests/test_alimentario.py
