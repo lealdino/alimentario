@@ -5,7 +5,7 @@ import numpy as np
 import altair as alt
 import plotly.express as px
 import matplotlib.pyplot as plt
-import alimentario
+# import alimentario
 
 # Define the main function for the Streamlit app
 def main():

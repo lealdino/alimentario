@@ -13,7 +13,8 @@ setup(
         author_email=["admin@dataverso.com.br"],
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
-        packages=find_packages(),
+        package_dir={"": "app"},
+        packages=find_packages(where="app"),
         install_requires=['pandas', 'requests'], # add any additional packages that 
         # needs to be installed along with your package. Eg: 'caer'
         
