@@ -12,9 +12,7 @@ def main():
 
     # Create four columns for the images
 
-
     st.image("images/app/all_logos.jpg", use_column_width=True)
-    
 
     # st.markdown("<h1 style='text-align: center; color: white;'>Alimentário - Análises</h1>", unsafe_allow_html=True)
     
