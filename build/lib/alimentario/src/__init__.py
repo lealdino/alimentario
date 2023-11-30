@@ -1,2 +1,2 @@
 
-from .alimentario import *
+from alimentario import *
