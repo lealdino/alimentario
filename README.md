@@ -5,6 +5,16 @@
 
 ## Instalação
 
+
+Para instalar o software, Alimentário, no seu computador local rode em um terminal:
+```
+pip install git+https://github.com/lealdino/alimentario.git
+```
+### Requisitos
+
+- `Python >= 3`
+
+
 ## Boas vindas ao Alimentário 👋
 
 🙋‍♀️ Comece aprendendo sobre o Software: 
