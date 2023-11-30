@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
+VERSION = '0.1.0' 
 DESCRIPTION = 'Python package to import survey data from LimeSurvey'
 LONG_DESCRIPTION = 'This package allows you to download data from LimeSurvey surveys in form of Pandas DataFrame'
 
@@ -32,8 +32,7 @@ setup(
             'Programming Language :: Python :: 3.11',
             'Programming Language :: Python :: 3.12',
             'Programming Language :: Python :: 3 :: Only',
-            'License :: OSI Approved :: MIT License',
-            'Operating System :: OS Independent',
+            'License :: OSI Approved :: MIT License'
         ],
         
         python_requires='>=3'
